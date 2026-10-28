@@ -1,0 +1,24 @@
+{
+  "violent_n": 266,
+  "violent_successes": 70,
+  "violent_rate": 0.2631578947368421,
+  "violent_ci95": [
+    0.21388077280079085,
+    0.3191786220441849
+  ],
+  "nonviolent_n": 292,
+  "nonviolent_successes": 150,
+  "nonviolent_rate": 0.5136986301369864,
+  "nonviolent_ci95": [
+    0.4565652686622135,
+    0.5704762292204373
+  ],
+  "difference_nonviolent_minus_violent": 0.25054073540014427,
+  "difference_ci95_wald": [
+    0.1725216317655069,
+    0.32855983903478164
+  ],
+  "two_proportion_z": 6.048643672151457,
+  "two_sided_p_value": 1.460703256788727e-09,
+  "test": "pooled two-proportion z-test; normal approximation"
+}

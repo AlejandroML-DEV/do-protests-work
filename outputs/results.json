@@ -1,0 +1,95 @@
+{
+  "dataset": {
+    "source_file": "NAVCO_1_3_List.xlsx",
+    "observations": 622,
+    "years_start": [
+      1899,
+      2019
+    ],
+    "countries": 164,
+    "analysis_observations": 558,
+    "excluded_ongoing": 62,
+    "excluded_undefined_outcome": 2,
+    "model_observations": 557,
+    "excluded_missing_objective_for_models": 1
+  },
+  "comparison": {
+    "violent_n": 266,
+    "violent_successes": 70,
+    "violent_rate": 0.2631578947368421,
+    "violent_ci95": [
+      0.21388077280079085,
+      0.3191786220441849
+    ],
+    "nonviolent_n": 292,
+    "nonviolent_successes": 150,
+    "nonviolent_rate": 0.5136986301369864,
+    "nonviolent_ci95": [
+      0.4565652686622135,
+      0.5704762292204373
+    ],
+    "difference_nonviolent_minus_violent": 0.25054073540014427,
+    "difference_ci95_wald": [
+      0.1725216317655069,
+      0.32855983903478164
+    ],
+    "two_proportion_z": 6.048643672151457,
+    "two_sided_p_value": 1.460703256788727e-09,
+    "test": "pooled two-proportion z-test; normal approximation"
+  },
+  "models": {
+    "Model 1 \u00b7 strategy only": {
+      "n": 557,
+      "country_clusters": 160,
+      "nonviol_beta": 1.0777386655253562,
+      "nonviol_se": 0.19891875828619252,
+      "nonviol_or": 2.9380281690140833,
+      "nonviol_ci95_or": [
+        1.9894493646853273,
+        4.338893804057978
+      ],
+      "nonviol_p": 6.027478177979612e-08
+    },
+    "Model 2 \u00b7 adjusted": {
+      "n": 557,
+      "country_clusters": 160,
+      "nonviol_beta": 0.7171840008314175,
+      "nonviol_se": 0.23614920474822404,
+      "nonviol_or": 2.0486560664650657,
+      "nonviol_ci95_or": [
+        1.289599312327008,
+        3.2544928014042482
+      ],
+      "nonviol_p": 0.0023894926236057395
+    },
+    "Model 3 \u00b7 no duration": {
+      "n": 557,
+      "country_clusters": 160,
+      "nonviol_beta": 0.7643524227701614,
+      "nonviol_se": 0.2347519163490158,
+      "nonviol_or": 2.1476031853310236,
+      "nonviol_ci95_or": [
+        1.3555925523206178,
+        3.402349351763851
+      ],
+      "nonviol_p": 0.0011299344104300415
+    }
+  },
+  "adjusted_predictions": {
+    "violent": [
+      0.2350596484911403,
+      0.30554342221103103,
+      0.37602719593092176
+    ],
+    "nonviolent": [
+      0.4043802320835243,
+      0.4629713113687031,
+      0.5215623906538819
+    ],
+    "difference": [
+      0.0574158446925285,
+      0.15742788915767209,
+      0.2574399336228157
+    ]
+  }
+}

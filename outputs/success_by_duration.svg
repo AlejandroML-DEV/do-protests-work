@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560">
+<rect width="100%" height="100%" fill="#f7f7f3"/>
+<text x="64" y="58" font-family="Arial,sans-serif" font-size="29" font-weight="700" fill="#1e2a2d">Success rate across duration groups</text>
+<text x="64" y="88" font-family="Arial,sans-serif" font-size="15" fill="#59676a">Completed campaigns · quantile groups of campaign duration in years; association is not assumed linear</text>
+<line x1="100" y1="430.0" x2="890" y2="430.0" stroke="#dce2df"/>
+<text x="86" y="435.0" text-anchor="end" font-family="Arial" font-size="13" fill="#637174">0%</text>
+<line x1="100" y1="373.0" x2="890" y2="373.0" stroke="#dce2df"/>
+<text x="86" y="378.0" text-anchor="end" font-family="Arial" font-size="13" fill="#637174">20%</text>
+<line x1="100" y1="316.0" x2="890" y2="316.0" stroke="#dce2df"/>
+<text x="86" y="321.0" text-anchor="end" font-family="Arial" font-size="13" fill="#637174">40%</text>
+<line x1="100" y1="259.0" x2="890" y2="259.0" stroke="#dce2df"/>
+<text x="86" y="264.0" text-anchor="end" font-family="Arial" font-size="13" fill="#637174">60%</text>
+<line x1="100" y1="202.0" x2="890" y2="202.0" stroke="#dce2df"/>
+<text x="86" y="207.0" text-anchor="end" font-family="Arial" font-size="13" fill="#637174">80%</text>
+<line x1="100" y1="145.0" x2="890" y2="145.0" stroke="#dce2df"/>
+<text x="86" y="150.0" text-anchor="end" font-family="Arial" font-size="13" fill="#637174">100%</text>
+<rect x="143.4" y="298.0" width="110.6" height="132.0" rx="8" fill="#267c78"/>
+<text x="198.8" y="286.0" text-anchor="middle" font-family="Arial" font-size="15" font-weight="700" fill="#1e2a2d">46.3%</text>
+<text x="198.8" y="458" text-anchor="middle" font-family="Arial" font-size="14" fill="#334246">1y median</text>
+<rect x="340.9" y="340.9" width="110.6" height="89.1" rx="8" fill="#397f84"/>
+<text x="396.2" y="328.9" text-anchor="middle" font-family="Arial" font-size="15" font-weight="700" fill="#1e2a2d">31.2%</text>
+<text x="396.2" y="458" text-anchor="middle" font-family="Arial" font-size="14" fill="#334246">3y median</text>
+<rect x="538.5" y="346.9" width="110.6" height="83.1" rx="8" fill="#55928d"/>
+<text x="593.8" y="334.9" text-anchor="middle" font-family="Arial" font-size="15" font-weight="700" fill="#1e2a2d">29.2%</text>
+<text x="593.8" y="458" text-anchor="middle" font-family="Arial" font-size="14" fill="#334246">5y median</text>
+<rect x="736.0" y="338.7" width="110.6" height="91.3" rx="8" fill="#76a8a0"/>
+<text x="791.2" y="326.7" text-anchor="middle" font-family="Arial" font-size="15" font-weight="700" fill="#1e2a2d">32.0%</text>
+<text x="791.2" y="458" text-anchor="middle" font-family="Arial" font-size="14" fill="#334246">12y median</text>
+<line x1="100" y1="430" x2="890" y2="430" stroke="#879494"/></svg>

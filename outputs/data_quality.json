@@ -1,0 +1,26 @@
+{
+  "rows": 622,
+  "columns": 16,
+  "exact_duplicate_rows": 0,
+  "duplicate_NAVCOID_rows": 37,
+  "repeated_NAVCOID_values": 18,
+  "unique_NAVCOID": 603,
+  "locations": 164,
+  "binary_flag_values_valid": true,
+  "invalid_year_order_rows": 0,
+  "start_year_min": 1899,
+  "start_year_max": 2019,
+  "end_year_min": 1902,
+  "end_year_max": 2019,
+  "ongoing_rows": 62,
+  "undefined_outcome_rows": 2,
+  "multi_status_rows": 62,
+  "ongoing_also_failure_rows": 62,
+  "violent_nonviolent_exclusive": true,
+  "outcome_flag_counts": {
+    "SUCCESS": 220,
+    "LIMITED": 78,
+    "FAILURE": 322,
+    "ONGOING": 62
+  }
+}
